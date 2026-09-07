@@ -1,0 +1,20 @@
+# Dependencies for all 3 services
+**/node_modules/
+
+# Build artifacts
+**/dist/
+**/build/
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# System & Editor
+.DS_Store
+.vscode/
+.idea/
